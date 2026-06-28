@@ -8,7 +8,6 @@ API'et innehåller en databas med filmer och skådespelare. Det är byggt med .N
 * Tester
 * Swagger-dokumentation för att enkelt testa och förstå API'et.
 * CLEAN-arkitektur med tydlig separation av ansvar mellan lager.
-<img src="https://github.com/KarlqvistLars/MovieAPI_Clean/blob/main/docs/CleanArkitekture.jpg" height="250">
 
 #### Endpoints(v1.0):
 GET /api/movies - Hämta alla filmer<br>
@@ -37,7 +36,7 @@ POST /api/movies/{id}/actors - Lägg till en skådespelare till en film<br>
 
 ## Programmets arkitektur - Clean Architecture
 
-![Clean Architecture](https://github.com/KarlqvistLars/MovieAPI2/blob/main/docs/UMLStruktur.jpg)
+<img src="https://github.com/KarlqvistLars/MovieAPI_Clean/blob/main/docs/CleanArkitekture.jpg" height="250">
 
 ### Starta API'et från rotkatalogen med: 
 ```
