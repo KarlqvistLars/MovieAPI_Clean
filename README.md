@@ -9,7 +9,7 @@ API'et innehåller en databas med filmer och skådespelare. Det är byggt med .N
 * Swagger-dokumentation för att enkelt testa och förstå API'et.
 * CLEAN-arkitektur med tydlig separation av ansvar mellan lager.
 
-![Clean Architecture]()
+![Clean Architecture](https://github.com/KarlqvistLars/MovieAPI_Clean/blob/main/docs/CleanArkitekture.jpg)
 
 #### Endpoints(v1.0):
 GET /api/movies - Hämta alla filmer<br>
