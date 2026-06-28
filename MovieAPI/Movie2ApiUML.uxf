@@ -1,0 +1,39 @@
+<diagram program="umletino" version="15.1"><zoom_level>5</zoom_level><element><id>UMLClass</id><coordinates><x>20</x><y>460</y><w>105</w><h>40</h></coordinates><panel_attributes>*ActorCreateDto*
+--
++ Name { get; set; } : string 
++ BirthYear { get; set; } : string
++ Movies { get; set; } : List&lt;string&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>510</y><w>105</w><h>50</h></coordinates><panel_attributes>*ActorUpdateDto*
+--
++ ActorId { get; set; } : int
++ Name { get; set; } : string 
++ BirthYear { get; set; } : string
++ Movies { get; set; } : List&lt;string&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>250</y><w>750</w><h>465</h></coordinates><panel_attributes>Core</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>280</y><w>105</w><h>80</h></coordinates><panel_attributes>*MovieCreateDto*
+--
++ MovieId { get; set; } : int
++ Title { get; set; } : string 
++ Year { get; set; } : string
++ Duration { get; set; } : string
++ Details { get; set; } : MovieDetailsDto
++ ActorDto{ get; set; } : List&lt;string&gt;
++ GenreDto{ get; set; } : List&lt;string&gt;
++ ReviewDto{ get; set; } : List&lt;string&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>370</y><w>105</w><h>80</h></coordinates><panel_attributes>*MovieUpdateDto*
+--
++ MovieId { get; set; } : int
++ Title { get; set; } : string 
++ Year { get; set; } : string
++ Duration { get; set; } : string
++ Details { get; set; } : MovieDetailsDto
++ ActorDto{ get; set; } : List&lt;string&gt;
++ GenreDto{ get; set; } : List&lt;string&gt;
++ ReviewDto{ get; set; } : List&lt;string&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>620</y><w>105</w><h>55</h></coordinates><panel_attributes>*ReviewUpdateDto*
+--
++ ActorId { get; set; } : int
++ ReviewerName { get; set; } : string 
++ Comment { get; set; } : string
++ Rating { get; set; } : int // Rating (1–5)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>570</y><w>105</w><h>40</h></coordinates><panel_attributes>*ReviewCreateDto*
+--
++ ReviewerName { get; set; } : string 
++ Comment { get; set; } : string
++ Rating { get; set; } : int // Rating (1–5)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>140</x><y>270</y><w>135</w><h>420</h></coordinates><panel_attributes>Contracts</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>270</y><w>135</w><h>420</h></coordinates><panel_attributes>DomainContracts</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>270</y><w>135</w><h>420</h></coordinates><panel_attributes>ModelDto</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>270</y><w>135</w><h>420</h></coordinates><panel_attributes>Models</panel_attributes><additional_attributes></additional_attributes></element></diagram>

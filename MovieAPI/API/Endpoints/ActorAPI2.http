@@ -1,0 +1,42 @@
+@MovieAPI_HostAddress = https://localhost:7221
+
+GET {{MovieAPI_HostAddress}}/api/actors
+
+###
+@Id=4
+GET {{MovieAPI_HostAddress}}/api/actors/{{Id}}
+
+###
+
+POST {{MovieAPI_HostAddress}}/api/actors
+Content-Type: application/json
+
+{
+    "name": "Petter Svensson",
+    "birthYear": "1973"
+}
+
+###
+
+PUT {{MovieAPI_HostAddress}}/api/actors/26
+Content-Type: application/json
+
+{
+  "actorId": 26,
+  "name": "Petterson Sven",
+  "birthYear": "1975",
+  "movies": [  ]
+}
+
+###
+@movieId = 2
+@actorId = 3
+POST {{MovieAPI_HostAddress}}/api/movies/{{movieId}}/actors/{{actorId}}
+Content-Type: application/json
+
+{
+
+}
+
+###
+DELETE {{MovieAPI_HostAddress}}/api/actors/43

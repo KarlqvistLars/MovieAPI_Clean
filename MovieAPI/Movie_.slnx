@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="API/API.csproj" />
+  <Project Path="Contracts/Contracts.csproj" Id="88841c8a-dc03-465b-8dc2-ae4fa2851edb" />
+  <Project Path="Core/Core.csproj" Id="39852fa4-02c6-4e53-88da-0f6b2be9a6f0" />
+  <Project Path="Data/Data.csproj" Id="2929e929-f568-4a83-bc80-8f92fc047330" />
+  <Project Path="Tests/Tests.csproj" Id="5d7a95ff-4b8c-467b-81c6-f8ecac4862bb">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+  <Project Path="Presentation/Presentation.csproj" Id="5c35d4c6-7e7c-4f2b-b63c-f87f454ae8f8" />
+  <Project Path="Services/Services.csproj" Id="99c4703d-c33e-496c-8f47-ff2cd9cbc256" />
+</Solution>
