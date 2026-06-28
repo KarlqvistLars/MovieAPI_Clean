@@ -8,7 +8,7 @@ API'et innehåller en databas med filmer och skådespelare. Det är byggt med .N
 * Tester
 * Swagger-dokumentation för att enkelt testa och förstå API'et.
 * CLEAN-arkitektur med tydlig separation av ansvar mellan lager.
-<img src="[images/minbild.jpg](https://github.com/KarlqvistLars/MovieAPI_Clean/blob/main/docs/CleanArkitekture.jpg)" width="400">
+<img src="https://github.com/KarlqvistLars/MovieAPI_Clean/blob/main/docs/CleanArkitekture.jpg" width="400">
 ![Clean Architecture](){hight=200px}
 
 #### Endpoints(v1.0):
