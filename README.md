@@ -1,4 +1,4 @@
-# MovieAPI2
+# Movie API
 API'et innehåller en databas med filmer och skådespelare. Det är byggt med .NET 10 och använder Entity Framework Core för databasinteraktion.
 <br>
 #### API'et innehåller följande features:
