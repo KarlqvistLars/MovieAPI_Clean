@@ -38,6 +38,9 @@ POST /api/movies/{id}/actors - Lägg till en skådespelare till en film<br>
 
 <img src="https://github.com/KarlqvistLars/MovieAPI_Clean/blob/main/docs/CleanArkitekture.jpg" height="250">
 
+## Requrements
+Detta API är byggt för databasen MSSQL så för att det ska fungera behöer [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server) vara installerad på datorn och rätt databaslänk vara definierad.
+
 ### Starta API'et från rotkatalogen med: 
 ```
 dotnet run --project API
