@@ -40,7 +40,7 @@ POST /api/movies/{id}/actors - Lägg till en skådespelare till en film<br>
 
 ### Starta API'et från rotkatalogen med: 
 ```
-dotnet run --project MovieAPI2
+dotnet run --project API
 ```
 Prova API'et med Swagger på:
 ```
